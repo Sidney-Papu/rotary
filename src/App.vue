@@ -11,20 +11,23 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <router-link to="/Home">Home</router-link> |
+            <router-link to="/Home">Início</router-link> |
           </li>
           <li class="nav-item">
             <router-link to='/equipamentos'>Equipamentos</router-link> |
           </li>
           <li class="nav-item">
-            <router-link to="/about">About</router-link> |
+            <router-link to="/about">Sobre</router-link> |
           </li>
           <li class="nav-item">
-            <router-link to="/Contato">Contato</router-link>
+            <router-link to="/Contato">Contato</router-link> |
+          </li>
+          <li class="nav-item">
+            <router-link to="/Entrar">Entrar</router-link> 
           </li>
         </ul>
         <!-- <a class="navbar-brand" href="#">Imagine o Rotary</a>-->
-        <img :src="require('./assets/Imagine.png')" />
+        <img :src="require('./assets/imagine_2.png')" />
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Pesquisa" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Pesquisa</button>
