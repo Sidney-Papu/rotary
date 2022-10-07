@@ -41,7 +41,7 @@
                     4
                 </td>
                 <td>
-                    Muletas
+                    Andadores elétricos
                 </td>
             </tr>
         </tbody>
