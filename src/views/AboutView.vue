@@ -1,9 +1,9 @@
 <template>
-  <div class="about"><h3>
+  <div class="about"><h4>
     Banco de Cadeira de Rodas
-  </h3>
+  </h4>
     
-    <h5>O Banco de Cadeiras de Rodas é um programa onde o Rotary Club Taquaritinga proporciona para a sua comunidade o empréstimo de Cadeiras de Rodas, Cadeiras Higiênicas, Muletas e Andadores, que tem como finalidade garantir o direito de cidadania dos portadores de necessidades especiais.
+    <h5>O Banco de Cadeiras de Rodas é um programa onde o Rotary Club Taquaritinga proporciona para a sua comunidade o empréstimo de Cadeiras de Rodas, Cadeiras de banho, Muletas e Andadores, que tem como finalidade garantir o direito de cidadania dos portadores de necessidades especiais.
 
 O publico alvo são aqueles que não possuem condições financeiras em adquirir o equipamento, portanto o Rotary Club Taquaritinga empresta o equipamento por tempo indeterminado, enquanto for necessário, que posteriormente é devolvida para ser reemprestada para outros usuários.
 
