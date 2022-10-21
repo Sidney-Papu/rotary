@@ -35,6 +35,12 @@ const routes = [
   {
     path: '/Contato',
     name: 'Contato',
+    
+  },
+  {
+    path: '/Entrar',
+    name: 'Entrar',
+    component: () => import(/* webpackChunkName: "equipamento-component" */ '../views/EntrarView.vue')
   }
   
 ]
