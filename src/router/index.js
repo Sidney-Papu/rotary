@@ -35,6 +35,7 @@ const routes = [
   {
     path: '/Contato',
     name: 'Contato',
+    component: () => import(/* webpackChunkName: "equipamento-component" */ '../views/ContatoView.vue')
     
   },
   {
