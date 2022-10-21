@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h1>
+        <h4>
             Cadastro de Paciente
-        </h1>
+        </h4>
         <div class="container-fluid">
             <form action="">
                 <div class="row spaceCont">
