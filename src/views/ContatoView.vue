@@ -6,17 +6,17 @@
     </div>
     <h5>
         Rua Francisco Mesquita, 640, Taquaritinga, SP, Brazil, 15900-000 <br>
-   
-        (16) 3252-6583 
- 
+
+        (16) 3252-6583
+
     </h5>
 </template>
 <script>
 export default {
-  name: 'ContatoView',
-  components: {
-  
-  }
+    name: 'ContatoView',
+    components: {
+
+    }
 }
 </script>
 <style>
