@@ -59,6 +59,9 @@
 </template>
 
 <style>
+.alinhamentoesquerda {
+    text-align: left !important;
+}
 .spaceCont {
     margin: 10px !important;
 }
