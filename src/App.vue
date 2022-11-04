@@ -26,7 +26,10 @@
             <router-link to="/Entrar">Entrar</router-link> |
           </li>
           <li class="nav-item">
-            <router-link to="/Cadastro">Cadastro</router-link>
+            <router-link to="/Cadastro">Cadastro</router-link> |
+          </li>
+          <li class="nav-item">
+            <router-link to="/Admin">Admin</router-link>
           </li>
         </ul>
         <!-- <a class="navbar-brand" href="#">Imagine o Rotary</a>-->
