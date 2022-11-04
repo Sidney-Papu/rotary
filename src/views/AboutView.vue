@@ -16,4 +16,5 @@ Possuímos hoje aproximadamente 500 aparelhos nesse Banco, e para que o trabalho
 O Rotary Club Taquaritinga agradece o apoio de toda comunidade que está abraçando esta causa participando dos eventos destinados à este fim.</h5>
   </div>
 </template>
+
   

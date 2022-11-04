@@ -1,63 +1,27 @@
 <template>
-    <b-row class="vh-100 vw-100 row-login">
-        <b-col sm="5" class="d-flex justify-content-center align-items-center left-login">
-            <div class="col-8">
-                <h2 class="text-center mb-5 title-login">Entre na conta</h2>
-                <b-form>
-                    <b-form-group
-                        label="E-mail"
-                        label-for="email"
-                        >
-                            <b-form-input
-                            id="email"
-                            type="email"
-                            placeholder="joaodasilva@email.com"
-                            autocomplete="off"
-                            v-model="form.email"
-                            ></b-form-input>
-                    </b-form-group>
+    <main class="form-signin w-100 m-auto">
+        <form>
 
-                    <b-form-group
-                        label-for="password"
-                    >
-                        <label class="d-flex justify-content-between">
-                            Senha
-                            <small><a href="#">Esqueceu sua senha?</a></small>
-                        </label>
+            <h1 class="h3 mb-3 fw-normal">Entrar</h1>
 
-                        <b-form-input
-                            id="password"
-                            type="password"
-                            placeholder="Digite sua senha"
-                            v-model="form.password"
-                        ></b-form-input>
-                    </b-form-group>
-
-                    <b-button
-                        type="button"
-                        variant="primary"
-                        block
-                        @click="login">
-                        <i class="fas fa-sign-in-alt"></i> Entrar
-                    </b-button>
-
-                    <hr>
-
-                    <b-button
-                        type="button"
-                        variant="outline-secondary"
-                        block
-                        @click="register">
-                        <i class="fas fa-user-plus"></i> Não tenho conta
-                    </b-button>
-                </b-form>
+            <div class="form-floating">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label for="floatingInput">Email </label>
             </div>
-        </b-col>
-        
-        <b-col sm="7" class="d-flex justify-content-center align-items-center">
-            <img :src="require('../assets/login.png')" />
-        </b-col>
-    </b-row>
+            <div class="form-floating">
+                <input type="password" class="form-control" id="floatingPassword" placeholder="Senha">
+                <label for="floatingPassword">Senha</label>
+            </div>
+
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Lembrar-me
+                </label>
+            </div>
+            <button class="w-100 btn btn-lg btn-primary" type="submit">Entrar</button>
+            <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+        </form>
+    </main>
 </template>
 
 <script>
@@ -71,26 +35,43 @@ export default {
         }
     },
     methods: {
-        login() {},
-            register() {},
-        }
+        login() { },
+        register() { },
     }
-    </script>
-    <style scoped>
-    *, /*resetar o estilo da pagina*/
-    *::after {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-    .row-login {
-        margin-left: 0;
-    }
-    .left-login {
-        background-color: #F2F2F2;
-    }
-    .title-login {
-        font-weight: bold;
-    }
-    </style>
+}
+</script>
+<style scoped>
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+</style>
