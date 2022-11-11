@@ -30,7 +30,7 @@
             Cadastro de pacientes
           </a>
           -->
-           <router-link to='/equipamentos'>P</router-link> |
+           <router-link to='/equipamentos'>E</router-link> |
         </li>
         <li>
           <a href="#" class="nav-link text-white">
@@ -61,7 +61,7 @@
             <svg class="bi pe-none me-2" width="16" height="16">
               <use xlink:href="#people-circle" />
             </svg>
-            Customers
+            Clientes
           </a>
         </li>
       </ul>
