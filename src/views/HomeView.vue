@@ -12,6 +12,10 @@
    <!-- <a class="navbar-brand" href="#">Interact </a>-->
    <img :src="require('./../assets/Interact.jpg')" />
 
+   <!-- <a class="navbar-brand" href="#">rotary </a>-->
+   <img :src="require('./../assets/Logo rotary.jpg')" />
+
+
    
 
  
